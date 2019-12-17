@@ -76,17 +76,17 @@ paginate_path: /page:num/
 
 
 # Front Matter Defaults
-defaults:
-  # Post defaults
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      comments: false
-      share: true
+#defaults:
+#  # Post defaults
+#  - scope:
+#      path: "_posts"
+#      type: posts
+#    values:
+#      layout: post
+#      comments: false
+#      share: true
 
- footer_links:
+footer_links:
   - title: Twitter
     url: https://twitter.com/biased_coin
     icon: fab fa-twitter-square
