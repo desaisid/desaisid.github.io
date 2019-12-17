@@ -24,8 +24,15 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://desaisid.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 skin: "/assets/css/skins/light.css"
-twitter_username: biased_coin
-github_username:  desaisid
+twitter:
+  username: biased_coin
+github:
+  username:  desaisid
+
+
+# Taxonomy pages
+category_archive_path: "/categories/#"
+
 
 # Build settings
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
@@ -51,3 +58,23 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# Front Matter Defaults
+defaults:
+  # Post defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      comments: false
+      share: true
+
+ footer_links:
+  - title: Twitter
+    url: https://twitter.com/biased_coin
+    icon: fab fa-twitter-square
+  - title: LinkedIn
+    url: https://in.linkedin.com/in/siddharthdesai
+    icon: fab fa-linkedin-square
