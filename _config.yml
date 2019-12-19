@@ -26,13 +26,9 @@ url: "https://desaisid.github.io" # the base hostname & protocol for your site, 
 skin: "/assets/css/skins/light.css"
 twitter:
   username: biased_coin
-github:
-  username:  desaisid
-
 
 # Taxonomy pages
 category_archive_path: "/categories/#"
-
 
 # Build settings
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
