@@ -21,5 +21,5 @@ fields:
     time_format: 
     display_utc: false
 pages:
-- _posts/confliscting-title.md
+- _posts/2019-12-02-confliscting-title.md
 - tags.md
