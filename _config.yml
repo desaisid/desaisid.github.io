@@ -28,14 +28,12 @@ twitter:
   username: biased_coin
 
 # Taxonomy pages
-category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
 
 # Build settings
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
 plugins:
   - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
   - jekyll-paginate
 
 # Exclude from processing.
