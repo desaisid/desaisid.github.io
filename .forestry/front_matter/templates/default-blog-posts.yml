@@ -1,6 +1,24 @@
 ---
 label: Default blog posts
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
+- name: date
+  type: datetime
+  label: date
+  description: Publish date
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 pages:
 - tags.md
